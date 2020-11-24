@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
   <meta charset="UTF-8">
   <title>One Million Yen!!!</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div class="main_container">
     <h1>Wellcome</h1>
+    <div class="answer_container_first_row">
+      <button class="button_answer_not_shown" id="show_option_1">
+        <img src="Images/515-5158160_png-file-svg-show-hide-password-icon-svg.png" alt="-hide-password-icon-svg" class="close_eye" id="close_eye_1" onclick="open_answer_1()"></button>
+      <button class="button_answer_not_shown" id="show_option_2">
+        <img src="Images/515-5158160_png-file-svg-show-hide-password-icon-svg.png" alt="-hide-password-icon-svg" class="close_eye" id="close_eye_2" onclick="open_answer_2()"></button>
+    </div>
+    <div class="answer_container_second_row">
+      <button class="button_answer_not_shown" id="show_option_3">
+        <img src="Images/515-5158160_png-file-svg-show-hide-password-icon-svg.png" alt="-hide-password-icon-svg" class="close_eye" id="close_eye_3" onclick="open_answer_3()"></button>
+      <button class="button_answer_not_shown" id="show_option_4">
+        <img src="Images/515-5158160_png-file-svg-show-hide-password-icon-svg.png" alt="-hide-password-icon-svg" class="close_eye" id="close_eye_4" onclick="open_answer_4()"></button>
+    </div>
+    <div class="description_row">
+      <button class="description_button" id="show_description_1">
+        <img src="Images/515-5158160_png-file-svg-show-hide-password-icon-svg.png" alt="-hide-password-icon-svg" class="close_eye" id="close_eye_5" onclick="show_desc_1()"></button>
+        <span class="desc_not_shown" id="desc_shown_1">Ποιος από τους παρακάτω σούπερ ήρωες…</span>
+        <img src="Images/515-5158160_png-file-svg-show-hide-password-icon-svg.png" alt="-hide-password-icon-svg" class="close_eye" id="close_eye_6" onclick="show_desc_2()"></button>
+        <span class="desc_not_shown" id="desc_shown_2">δεν φοράει συχνά μάσκα.</span>
+      </button>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
